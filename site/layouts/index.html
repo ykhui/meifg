@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  
+  {{partial "head" . }}
+
+<body class="home-page sidebar-collapse">
+    
+  {{ partial "nav" . }}
+    
+    <div class="page-header" filter-color="{{.Params.tint}}">
+        <div class="page-header-image" style="background-image:url('{{ .Params.background }}');">
+        </div>
+        {{ .Content }}
+        {{ partial "footer" . }}
+    
+    </div>
+</body>
+ 
+{{partial "javascript" . }}
+   
+</html>

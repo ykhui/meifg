@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="container">
+    <nav>
+	    <ul>
+	    {{ range .Site.Menus.footer }}
+        <li>
+          <a href="{{ .URL | relURL }}">{{ .Pre }} {{ .Name }}</a>
+        </li>
+      {{ end }}
+      </ul>
+    </nav>
+  </div>
+</footer>
