@@ -1,6 +1,6 @@
 ---
 title: "Home"
-background: "../img/homepagebg.jpg"
+background: "../img/home/bg.jpg"
 tint: "blue"
 ---
 

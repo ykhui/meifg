@@ -12,18 +12,18 @@ publishDir = "../docs"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Firm"
-    url = "/components"
-    weight = 1
-[[menu.main]]
-    name = "Our Team"
-    url = "/landing"
-    weight = 1
-[[menu.main]]
-    name = "Our Expertise"
-    url = "/profile"
-    weight = 2
+##[[menu.main]]
+##    name = "Firm"
+##    url = "/components"
+##    weight = 1
+##[[menu.main]]
+##    name = "Our Team"
+##    url = "/landing"
+##    weight = 1
+##[[menu.main]]
+##    name = "Our Expertise"
+##    url = "/profile"
+##    weight = 2  #/
 [[menu.main]]
     name = "Contact"
     url = "/contact"
@@ -50,7 +50,7 @@ publishDir = "../docs"
 [params]
     background = "/img/bg11.jpg"
     tint = "orange"
-    custom_css = ["css/highlight.min.css"]
+    custom_css = ["css/highlight.min.css", "css/homepage.css", "css/base.css"]
     custom_js = []
     date_format = "Mon, Jan 2, 2006"
     description = "MEI Financial Group"

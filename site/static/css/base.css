@@ -1,0 +1,41 @@
+/*
+Changing Section background to transparent instead of white
+*/
+.section {
+    background: rgba(0,0,0,0.5);
+}
+
+/*
+Changing website background to fixed instead of scrolling white
+*/
+.page-header .page-header-image {
+    position: fixed;
+}
+
+/*
+Menu link font size
+*/
+.navbar .navbar-nav .nav-link:not(.btn) {
+    font-size: 1.2em;
+}
+
+/*
+contact page content
+*/
+.content-contact-left {
+    position: absolute;
+    top: 20%;
+ /*   left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    text-align: left;
+    padding: 0 15px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 880px; } 
+
+.wrapper {
+
+	height: 100%;
+}    
