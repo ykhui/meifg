@@ -59,6 +59,10 @@ background: linear-gradient(rgba(0, 0, 0, 0.4),
     z-index:2;
 }
 
+.homefooter{
+    background: rgba(0,0,0,0);
+}
+
 /* =========================================================
  * End of homepage carousel positioning and background section
  */

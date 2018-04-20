@@ -1,21 +1,22 @@
 <!doctype html>
 <html lang="en">
-  
   {{partial "head" . }}
-
-<body class="home-page sidebar-collapse">
+  
+  <body class="{{ .Params.class | default "profile-page" }} sidebar-collapse">
+    {{ partial "nav" . }}
     
-  {{ partial "nav" . }}
-  <div class="wrapper">
-    <div class="page-header" filter-color="{{.Params.tint}}">
-        <div class="page-header-image" style="background-image:url('{{ .Params.background }}');">
-        </div>      
-            {{ .Content }}  
-    </div>  
-    {{ partial "footer" . }}
-  </div>
-</body>
- 
+    <div class="{{ .Params.wrapper | default "wrapper" }}">
+      
+        <div class="page-header {{ .Params.headerstyle | default "page-header-small"}}" filter-color="{{ .Param "tint" | default "orange" }}">
+            <div class="page-header-image" data-parallax="false" style="background-image: url('{{ (.Param "background")  | default "img/header.jpg" | relURL }}');">
+            </div>
+            
+        </div>
+        <div class="{{ .Params.section | default "section"}}">  
+            {{ .Content }}
+        </div>
+      {{ partial "footer" . }}
+    </div>
+  </body>
 {{partial "javascript" . }}
-   
 </html>

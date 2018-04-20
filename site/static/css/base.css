@@ -23,7 +23,7 @@ Menu link font size
 contact page content
 */
 .content-contact-left {
-    position: absolute;
+    position: relative;
     top: 20%;
  /*   left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -39,3 +39,12 @@ contact page content
 
 	height: 100%;
 }    
+
+/*
+footer section style
+*/
+
+.footer{
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
