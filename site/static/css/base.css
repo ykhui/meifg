@@ -3,6 +3,7 @@ Changing Section background to transparent instead of white
 */
 .section {
     background: rgba(0,0,0,0.5);
+    min-height: 90vh;
 }
 
 /*
@@ -65,4 +66,8 @@ form background colour for textbox as it is not obvious enough
 */
 textarea.form-control {
     border: 1px solid #E3E3E3;
+}
+
+.now-ui-icons {
+    margin-top: 70%;
 }
