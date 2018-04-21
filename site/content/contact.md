@@ -5,10 +5,12 @@ tint: "blue"
 type: "template"
 layout: "contact"
 ---
-<div class="container">
-  <div class="content-contact-left">
+<div class="container content-contact-left">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-2">
+          <h2 class="title">haha</h2>
+        </div>
+        <div class="col-sm-5">
             <div class="contactform">
                     <h2 class="title">Send us a message</h2>
                     <p class="description">You can contact us with anything related to our Products. We'll get in touch with you as soon as possible.<br><br>
@@ -45,7 +47,7 @@ layout: "contact"
                     </form>
             </div>
         </div>        
-        <div class="col-sm-4">
+        <div class="col-sm-5">
             <div class="widget">
                 <div class="widget-header">Dimensions</div>
                 <div class="widget-body"></div>
@@ -56,5 +58,4 @@ layout: "contact"
             </div>
         </div>        
     </div>
-  </div>
 </div>
