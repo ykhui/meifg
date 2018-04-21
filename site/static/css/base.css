@@ -110,3 +110,11 @@ contact page address styles
 .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
     background-color: #384156;
 }
+
+/* 
+font style here
+*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
