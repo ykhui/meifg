@@ -27,6 +27,9 @@ Menu link font size
     font-size: 1.2em;
 }
 
+.site-nav-logo{
+    width:70%;
+}
 /*
 contact page content
 */
@@ -102,16 +105,18 @@ contact page address styles
     color: white;
     padding: 0 15px;
     font-size: 1em;
+    margin-left: 35px;
 }
-.icon-location{
+.icon-contact-resize{
   font-size: 50px;
+  margin-top: 5px;
 }
 
 .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
     background-color: #384156;
 }
 
-/* 
+/*
 font style here
 */
 

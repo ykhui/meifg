@@ -58,14 +58,26 @@ layout: "contact"
             <div class="col-sm-6 mr-auto">          
               <div class="info info-horizontal">
                 <div class="icon icon-primary">
-                  <i class="now-ui-icons location_pin icon-location"></i>
+                  <i class="now-ui-icons location_pin icon-contact-resize"></i>
                 </div>
                 <div class="description">
                   <h4 class="info-title">Address</h4>
-                  <p> Level 14 Office No 4<br />
+                  <p> Level 14 Office No 4<br>
                       Salam Tower, West Bay, Doha, Qatar
                   </p>
                 </div>
+              </div>
+              <div class="info info-horizontal">
+                  <div class="icon icon-primary">
+                      <i class="now-ui-icons tech_mobile icon-contact-resize"></i>
+                  </div>
+                  <div class="description">
+                      <h4 class="info-title">Give us a Call</h4>
+                      <p> Middle East International Financial Group LLC<br>
+                          +974 5028 5492<br>
+                          Mon - Fri, 8:00-22:00
+                      </p>
+                  </div>
               </div>
             </div>
           </div>
