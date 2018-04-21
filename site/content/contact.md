@@ -29,21 +29,21 @@ layout: "contact"
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Company Name..." aria-label="Company Name..." >
+                    <input type="text" class="form-control" name="Company Name" placeholder="Company Name..." aria-label="Company Name..." >
                   </div>
                   <label>Email address</label>
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" ><i class="now-ui-icons ui-1_email-85"></i></span>
                     </div>
-                    <input type="email" class="form-control" placeholder="Email Here..." aria-label="Email Here...">
+                    <input type="email" class="form-control" name="Email" placeholder="Email Here..." aria-label="Email Here...">
                   </div>
                   <label>Phone</label>
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="now-ui-icons tech_mobile"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Number Here...">
+                    <input type="text" class="form-control" name="Phone Number" placeholder="Number Here...">
                   </div>
                   <div class="form-group">
                     <label>Your message</label>
