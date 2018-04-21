@@ -7,8 +7,6 @@ type: "template"
 layout: "contact"
 ---
 <div class="container content-contact-left">
-                          </div>
-                          <input type="text" class="form-control" placeholder="Your Name..." aria-label="Your Name..." >
   <div class="row">
     <div class="col-sm-2">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">

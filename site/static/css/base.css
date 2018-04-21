@@ -13,10 +13,6 @@ change font and anchor properties Here
   color:white;
 }
 
-.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
-    background-color: #384156;
-}
-
 /*
 Changing website background to fixed instead of scrolling white
 */
@@ -112,4 +108,8 @@ contact page address styles
 }
 .icon-location{
   font-size: 50px;
+}
+
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+    background-color: #384156;
 }
