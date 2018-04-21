@@ -7,6 +7,17 @@ Changing Section background to transparent instead of white
 }
 
 /*
+change font and anchor properties Here
+*/
+.nav-link-contact{
+  color:white;
+}
+
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+    background-color: #384156;
+}
+
+/*
 Changing website background to fixed instead of scrolling white
 */
 .page-header .page-header-image {
@@ -34,12 +45,13 @@ contact page content
     padding: 0 15px;
     color: #FFFFFF;
     width: 100%;
-    max-width: 880px; } 
+    max-width: 1140px; }
 
 .wrapper {
 
 	height: 100%;
-}    
+  width:  100%;
+}
 
 /*
 footer section style
@@ -50,7 +62,7 @@ footer section style
     color: white;
 }
 
-/* 
+/*
 page header height adjustment
 */
 .page-header.page-header-small {
@@ -70,4 +82,34 @@ textarea.form-control {
 
 .now-ui-icons {
     margin-top: 70%;
+}
+
+/*
+contact page address styles
+*/
+.icon.icon-primary {
+    color: white;
+}
+.info-horizontal .icon {
+    float: left;
+}
+.description, .card-description, .footer-big p {
+    color: white;
+    font-weight: 300;
+}
+.description{
+  margin-left: 10%;
+}
+.info .info-title {
+    margin: 25px 0 15px;
+    padding: 0 15px;
+    color: white;
+}
+.info p {
+    color: white;
+    padding: 0 15px;
+    font-size: 1em;
+}
+.icon-location{
+  font-size: 50px;
 }
