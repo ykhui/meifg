@@ -59,8 +59,17 @@ footer section style
 .footer{
     background: rgba(0,0,0,0.5);
     color: white;
+    text-align: center;
+}
+.footer nav {
+    display: inline-block;
+    float: none;
 }
 
+.footer ul {
+    text-align: right;
+    float: right;
+}
 /*
 page header height adjustment
 */
