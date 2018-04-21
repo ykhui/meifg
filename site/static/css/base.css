@@ -48,3 +48,21 @@ footer section style
     background: rgba(0,0,0,0.5);
     color: white;
 }
+
+/* 
+page header height adjustment
+*/
+.page-header.page-header-small {
+    height: 5vh;
+}
+
+.profile-page .page-header {
+    min-height: 0px;
+}
+
+/*
+form background colour for textbox as it is not obvious enough
+*/
+textarea.form-control {
+    border: 1px solid #E3E3E3;
+}
