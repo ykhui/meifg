@@ -58,6 +58,10 @@ contact page content
     text-align: center;
 }
 
+.footer nav{
+  width:100%;
+}
+
 /*
 page header height adjustment
 */
@@ -111,4 +115,16 @@ font style here
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 760px) {
+  .footermenucenter{
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  .footermenuright{
+    margin-left: auto!important;
+  }
 }

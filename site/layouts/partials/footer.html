@@ -1,13 +1,13 @@
-<footer class="footer" data-background-color="black">
+<footer class="{{ .Params.footerclass | default "footer" }}" data-background-color="black">
   <div class="container">
     <nav>
-      <div class="d-flex flex-wrap-reverse">
-        <div class="p-2">
+      <div class="d-flex flex-wrap-reverse footermenucenter">
+        <div class="p-2 text-sm-center">
           <a href="{{ .Site.BaseURL | relURL }}" target="_self">
             Middle Eastern International Financial Group LLC &copy; 2017
           </a>
         </div>
-        <div class="ml-auto p-2">
+        <div class="p-2 text-sm-center footermenuright">
 	        <ul>
 	          {{ range .Site.Menus.footer }}
             <li>

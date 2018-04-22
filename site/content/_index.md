@@ -1,5 +1,6 @@
 ---
 title: "Home"
+footerclass: "footer homefooter"
 background: "../img/home/bg.jpg"
 tint: "blue"
 ---
