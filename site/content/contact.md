@@ -88,7 +88,7 @@ layout: "contact"
               <div class="row">   
                 <div class="col-sm-12">
                   <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12131.060062000306!2d51.51982097895478!3d25.31811888960373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c4c6a8cba537%3A0xcbdfd72826770ce2!2zQWwgU2FsYW0gVG93ZXIsIEFsIEZ1bmR1cSBTdCwgRG9oYSwg5Y2h5aGU5bCU!5e0!3m2!1szh-CN!2ssg!4v1524318189067" width="100%" height="278px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12131.060062000306!2d51.51982097895478!3d25.31811888960373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c4c6a8cba537%3A0xcbdfd72826770ce2!2zQWwgU2FsYW0gVG93ZXIsIEFsIEZ1bmR1cSBTdCwgRG9oYSwg5Y2h5aGU5bCU!5e0!3m2!1szh-CN!2ssg!4v1524318189067" width="100%" height="352px" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>                

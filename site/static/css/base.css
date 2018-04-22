@@ -164,3 +164,7 @@ font style here
     text-align: center;
     padding-top: -80px;
 }
+
+.form-control{
+  color: white;
+}
