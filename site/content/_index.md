@@ -30,7 +30,7 @@ tint: "blue"
       <div class="threebg"></div>    
       <div class="container">
       	<div class="content-left">    
-      		<h1 class="home-header1">Knowledge and Expertise</h1>
+      		<h1 class="home-header1">Knowledge & Expertise</h1>
       		<p class="home-p1">Tagline sentence here</p>
       		<button class="btn btn-info">Learn More</button>
       	</div>

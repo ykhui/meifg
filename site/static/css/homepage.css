@@ -81,13 +81,21 @@ Homepage carousel content
     padding: 0 15px;
     color: #FFFFFF;
     width: 100%;
-    max-width: 880px; }
+}
 /*
 Homepage carousel header font
 */
 .home-header1 {
   font-size: 4.5vw;
   font-weight: 1000;
+}
+@media screen and (max-width: 576px) {
+    .home-header1 {
+        font-size: 13vw;
+    }
+    .home-p1 {
+        font-size: 4vw;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -99,13 +107,13 @@ Homepage carousel header font
     }
 }
 
-@media screen and (max-width: 576px) {
-    .home-header1 {
-        font-size: 13vw;
-    }
-    .home-p1 {
-        font-size: 4vw;
-    }
+@media screen and (min-width: 1200px) {
+  .home-header1 {
+      font-size: 5vw;
+  }
+  .home-p1 {
+      font-size: 2vw;
+  }
 }
 
 .footer a{

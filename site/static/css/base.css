@@ -52,24 +52,12 @@ contact page content
   width:  100%;
 }
 
-/*
-footer section style
-*/
-
 .footer{
     background: rgba(0,0,0,0.5);
     color: white;
     text-align: center;
 }
-.footer nav {
-    display: inline-block;
-    float: none;
-}
 
-.footer ul {
-    text-align: right;
-    float: right;
-}
 /*
 page header height adjustment
 */
@@ -80,7 +68,6 @@ page header height adjustment
 .profile-page .page-header {
     min-height: 0px;
 }
-
 /*
 form background colour for textbox as it is not obvious enough
 */
@@ -105,20 +92,13 @@ contact page address styles
     color: white;
     font-weight: 300;
 }
-.info .info-title {
-    margin: 25px 0 15px;
-    padding: 0 15px;
-    color: white;
-}
-.info p {
-    color: white;
-    padding: 0 15px;
-    font-size: 1em;
-    margin-left: 35px;
-}
+
 .icon-contact-resize{
   font-size: 50px;
   margin-top: 5px;
+}
+.address-name{
+  margin-top:-30px;
 }
 
 .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
