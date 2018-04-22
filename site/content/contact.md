@@ -21,10 +21,17 @@ layout: "contact"
             <div class="col-sm-6 mr-auto">
               <div class="contactform">
                 <form role="form" id="contact-form" method="post" netlify>
-                  <label>Company</label>
+                <label>Name</label>
                   <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
+                    </div>
+                    <input type="text" class="form-control" name="Name" placeholder="Name..." aria-label="Name..." >
+                  </div>
+                  <label>Company</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="now-ui-icons business_bank"></i></span>
                     </div>
                     <input type="text" class="form-control" name="Company Name" placeholder="Company Name..." aria-label="Company Name..." >
                   </div>
@@ -47,7 +54,7 @@ layout: "contact"
                     <textarea name="message" class="form-control" id="message" rows="6"></textarea>
                   </div>
                   <div class="submit text-center">
-                    <input type="submit" class="btn btn-primary btn-raised btn-round" value="Send" />
+                    <input type="submit" class="btn btn-primary btn-raised btn-round btn-sm" value="Send" />
                   </div>
                 </form>
               </div>

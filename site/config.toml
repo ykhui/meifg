@@ -12,10 +12,10 @@ publishDir = "../docs"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-##[[menu.main]]
-##    name = "Firm"
-##    url = "/components"
-##    weight = 1
+[[menu.main]]
+    name = "Firm"
+    url = "/firm"
+    weight = 1
 ##[[menu.main]]
 ##    name = "Our Team"
 ##    url = "/landing"

@@ -16,6 +16,22 @@ change font and anchor properties Here
 }
 
 /*
+change color and styling for tabbed cards
+*/
+.nav-tabs > .nav-item > .nav-link {
+    color: white;
+}
+
+body{
+  color: white;
+}
+
+.card{
+    background-color: rgba(0,0,0,0);
+    box-shadow: none;
+}
+
+/*
 Changing website background to fixed instead of scrolling white
 */
 .page-header .page-header-image {
@@ -81,10 +97,6 @@ textarea.form-control {
     border: 1px solid #E3E3E3;
 }
 
-.now-ui-icons {
-    margin-top: 70%;
-}
-
 /*
 contact page address styles
 */
@@ -127,7 +139,7 @@ font style here
   .footermenucenter{
     justify-content: center;
   }
-  .btn{
+  .btn-sm{
     width: 100%;
   }
   .section {
