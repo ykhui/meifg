@@ -3,7 +3,6 @@ Changing Section background to transparent instead of white
 */
 .section {
     background: rgba(0,0,0,0.5);
-    min-height: 87vh;
 }
 .page-header{
     max-height: none;
@@ -130,10 +129,16 @@ font style here
   .btn{
     width: 100%;
   }
+  .section {
+      min-height: 75vh;
+  }
 }
 
 @media screen and (min-width: 761px) {
   .footermenuright{
     margin-left: auto!important;
+  }
+  .section {
+      min-height: 87vh;
   }
 }
