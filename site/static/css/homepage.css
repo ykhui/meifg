@@ -14,7 +14,7 @@
 .carousel .onebg {
 background: linear-gradient(rgba(0, 0, 0, 0.4),
                             rgba(0, 0, 0, 0.4)),
-                            url(../img/home/slide1.jpg);
+                            url(../img/home/slide1b.jpg);
     background-size: cover;
     -moz-background-size: cover;
     position: absolute;
@@ -45,7 +45,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.4),
 .carousel .fourbg {
 background: linear-gradient(rgba(0, 0, 0, 0.4),
                             rgba(0, 0, 0, 0.4)),
-                            url(../img/home/slide4.jpg);
+                            url(../img/home/slide4b.jpg);
     background-size: cover;
     -moz-background-size: cover;
     position: absolute;

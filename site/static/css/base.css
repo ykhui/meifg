@@ -3,7 +3,8 @@ Changing Section background to transparent instead of white
 */
 .section {
     background: rgba(0,0,0,0.5);
-    padding: 100px 0;
+    padding-top: 80px;
+    padding-bottom: 0px;
 }
 .page-header{
     max-height: none;
@@ -18,17 +19,19 @@ change font and anchor properties Here
 /*
 change color and styling for tabbed cards
 */
-.nav-tabs > .nav-item > .nav-link {
-    color: white;
-}
 
+.nav-tabs > .nav-item > .nav-link {
+    color: black;
+}
+/*
 body{
   color: white;
 }
-
+*/
 .card{
-    background-color: rgba(0,0,0,0);
-    box-shadow: none;
+    background-color: rgba(255,255,255,0.7);
+/*    box-shadow: none; */
+    margin-bottom: 0;
 }
 
 /*
@@ -53,8 +56,8 @@ contact page content
 */
 .content-contact-left {
     position: relative;
-    top: 20%;
- /*   left: 50%;
+ /*     top: 20%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);*/
@@ -68,12 +71,6 @@ contact page content
 
 	height: 100%;
   width:  100%;
-}
-
-.footer{
-    background: rgba(0,0,0,0.5);
-    color: white;
-    text-align: center;
 }
 
 .footer nav{
@@ -145,6 +142,9 @@ font style here
   .section {
       min-height: 75vh;
   }
+  .card {
+      min-height: 75vh;
+  }
 }
 
 @media screen and (min-width: 761px) {
@@ -154,4 +154,13 @@ font style here
   .section {
       min-height: 80vh;
   }
+  .card {
+      min-height: 63vh;
+  }
+}
+.footer{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    padding-top: -80px;
 }

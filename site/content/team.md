@@ -1,6 +1,6 @@
 ---
-title: "firm"
-class: "firm-page"
+title: "Team"
+class: "team-page"
 section: "section section-tabs"
 background: "../img/contact/bg.jpg"
 tint: "blue"
