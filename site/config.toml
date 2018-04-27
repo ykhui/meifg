@@ -16,18 +16,18 @@ publishDir = "../docs"
     name = "Firm"
     url = "/firm"
     weight = 1
-##[[menu.main]]
-##    name = "Our Team"
-##    url = "/landing"
-##    weight = 1
-##[[menu.main]]
-##    name = "Our Expertise"
-##    url = "/profile"
-##    weight = 2  #/
+[[menu.main]]
+    name = "Our Team"
+    url = "/team"
+    weight = 2
+[[menu.main]]
+    name = "Our Expertise"
+    url = "/expertise"
+    weight = 3  
 [[menu.main]]
     name = "Contact"
     url = "/contact"
-    weight = 3
+    weight = 4
 
 [[menu.footer]]
     identifier = "Legal Notice"

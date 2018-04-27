@@ -77,7 +77,7 @@ layout: "contact"
                   <div class="info info-horizontal">
                     <div class="description">
                       <h5 class="info-title">Telephone</h4>
-                      <p> (974) 5028 5492<br></p>
+                      <p> +974 5028 5492<br></p>
                       <h5 class="info-title">Email</h4>
                       <p> info@mei-fg.com<br>
                       </p>          
