@@ -1,11 +1,5 @@
----
-title: "Home"
-footerclass: "footer homefooter"
-background: "../img/home/bg.jpg"
-tint: "blue"
----
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item one active">
       <div class="onebg"></div>
@@ -48,10 +42,4 @@ tint: "blue"
       </div>      		
     </div>        
   </div>
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>    
-  </ol>  
 </div>

@@ -1,33 +1,22 @@
 ---
-title: "Our Expert"
+title: "Our Expertise"
 class: "expertise-page"
 section: "section section-tabs"
 background: "../img/contact/bg.jpg"
 tint: "blue"
 type: "template"
-layout: "contact"
----
-<div class="container">
-  <div class="card">  
-    <div class="row">
-      <div class="col-sm-12 nav-header-col">    
-        <h3>Our Knowledge & Expertise</h3>
-        <h6>
-          Our senior professionals are veteran investment bankers who have developed reputations for excellence in advising clients over their careers.
-        </h6>        
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-2 nav-headernav-col">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+layout: "pillstab"
+pillcardheader: |
+          <h3>Our Knowledge & Expertise</h3>
+          <h6>
+            Our senior professionals are veteran investment bankers who have developed reputations for excellence in advising clients over their careers.
+          </h6>
+pillcardsidetab: |
           <a class="nav-link nav-link-card active" id="v-pills-investment-tab" data-toggle="pill" href="#v-pills-investment" role="tab" aria-controls="v-pills-investment" aria-selected="true">Investment Banking</a>
           <a class="nav-link nav-link-card" id="v-pills-asset-tab" data-toggle="pill" href="#v-pills-asset" role="tab" aria-controls="v-pills-asset" aria-selected="false">Asset Management</a>
           <a class="nav-link nav-link-card" id="v-pills-securities-tab" data-toggle="pill" href="#v-pills-securities" role="tab" aria-controls="v-pills-securities" aria-selected="false">Securities Brokerage</a>
           <a class="nav-link nav-link-card" id="v-pills-consult-tab" data-toggle="pill" href="#v-pills-consult" role="tab" aria-controls="v-pills-consult" aria-selected="false">Business & Strategic Consultancy</a>
-        </div>
-      </div>
-      <div class="col-sm-10">
-        <div class="tab-content" id="v-pills-tabContent">  
+pillcardcontent: |
           <div class="tab-pane fade show active" id="v-pills-investment" role="tabpanel" aria-labelledby="v-pills-investment-tab">
             <p>
               Our experienced investment bankers deliver tailored financial services according to a thorough understanding of each client’s needs.
@@ -50,12 +39,6 @@ layout: "contact"
             </p>     
           </div>
           <div class="tab-pane fade" id="v-pills-consult" role="tabpanel" aria-labelledby="v-pills-consult-tab">
-            <p>
-              Coming soon.
-            </p>     
-          </div>          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+            <p>Coming soon.</p>     
+          </div>
+---

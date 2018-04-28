@@ -2,7 +2,7 @@
 Changing Section background to transparent instead of white
 */
 .section {
-    background: rgba(0,0,0,0.5);
+    background: transparent;
     padding-top: 80px;
     padding-bottom: 0px;
 }
@@ -68,8 +68,8 @@ contact page content
     max-width: 1140px; }
 
 .wrapper {
-
-	height: 100%;
+  background:rgba(0, 0, 0, 0.5);
+	min-height: 100vh;
   width:  100%;
 }
 
@@ -117,10 +117,6 @@ contact page address styles
    margin-bottom: 0;
 }
 
-.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
-    background-color: #384156;
-}
-
 .description p, p.description {
     font-size: 1em;
 }
@@ -132,47 +128,8 @@ font style here
     font-family: 'Libre Baskerville', serif;
 }
 
-@media screen and (max-width: 760px) {
-  .footermenucenter{
-    justify-content: center;
-  }
-  .btn-sm{
-    width: 100%;
-  }
-  .section, .card {
-      min-height: 64vh;
-  }
-  /* adding right border to vertical tab cards on small screens only*/
-  .nav-col, .nav-headernav-col{
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-  }
-}
-
-@media screen and (min-width: 761px) {
-  .footermenuright{
-    margin-left: auto!important;
-  }
-  .section {
-      min-height: 87vh;
-  }
-  .card, .nav-col {
-      min-height: 79vh;
-  }
-  .nav-header-col {
-      min-height: 10vh;
-  }
-  .nav-headernav-col {
-      min-height: 68.5vh;
-  }
-  /* adding right border to vertical tab cards on big screens only*/
-  .nav-col, .nav-headernav-col{
-    border-right-style: solid;
-    border-right-width: 1px;
-  }
-}
 .footer{
-    background: rgba(0,0,0,0.5);
+    background: transparent;
     color: white;
     text-align: center;
     padding-top: -80px;
@@ -187,24 +144,6 @@ font style here
   margin-top:40px; /*---*/
 }
 
-/* add arrow to bullet points*/
-.nav-pills .nav-link-contact.active:before,  .nav-pills .nav-link-card.active:before{
-    content: "\27bd \0020";
-}
-
-/* white color arrow for contact page only*/
-.nav-pills .nav-link-contact.active:before {
-    color: white;
-}
-
-/* black color arrow for card tabs only */
-.nav-pills .nav-link-card.active:before {
-    color: black;
-}
-
-.nav-pills .nav-link-card.active, .show>.nav-pills .nav-link-card {
-    color: black;
-}
 
 /* extra padding for paragraphs in cards */
 .card p, .card h1, .card h2, .card h3, .card h4, .card h5, .card h6{
@@ -212,13 +151,164 @@ font style here
   margin-bottom: 5px;
 }
 
-/* remove button for active nav-link pills */
-.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
-  background-color: transparent;
-}
-
 /* adding bottom border to vertical tab cards head*/
 .nav-header-col{
   border-bottom-style: solid;
   border-bottom-width: 1px;
+}
+
+.nav-headernav-col a{
+  color:black;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  .footermenuright{
+    margin-left: auto!important;
+  }
+  .section {
+      min-height: 87vh;
+  }
+  .card, .nav-col {
+      min-height: 78.5vh;
+  }
+  .nav-header-col {
+      min-height: 20vh;
+  }
+  .nav-headernav-col {
+      min-height: 58.5vh;
+      padding-right: 0px;
+  }
+  /* adding right border to vertical tab cards on big screens only*/
+  .nav-col, .nav-headernav-col{
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .footermenuright{
+    margin-left: auto!important;
+  }
+  .section {
+      min-height: 80%;
+  }
+  .card, .nav-col {
+      min-height: 71.5vh;
+  }
+  .nav-header-col {
+      min-height: 20vh;
+  }
+  .nav-headernav-col {
+      min-height: 51.5vh;
+      padding-right: 0px;
+  }
+  /* adding right border to vertical tab cards on big screens only*/
+  .nav-col, .nav-headernav-col{
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px)and (orientation:portrait) {
+
+  .footermenuright{
+    margin-left: auto!important;
+  }
+  .section {
+      min-height: 87vh;
+  }
+  .card, .nav-col {
+      min-height: 79vh;
+  }
+  .nav-header-col {
+      min-height: 10vh;
+  }
+  .nav-headernav-col {
+      min-height: 68.5vh;
+      padding-right: 0px;
+  }
+  /* adding right border to vertical tab cards on big screens only*/
+  .nav-col, .nav-headernav-col{
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .footermenuright{
+    margin-left: auto!important;
+  }
+  .section {
+      min-height: 83.9vh;
+  }
+  .card, .nav-col {
+      min-height: 72.8vh;
+  }
+  .nav-header-col {
+      min-height: 15vh;
+  }
+  .nav-headernav-col {
+      min-height: 57.8vh;
+      padding-right: 0px;
+  }
+  /* adding right border to vertical tab cards on big screens only*/
+  .nav-col, .nav-headernav-col{
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape){
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) and (orientation:portrait) {
+  .footermenucenter{
+    justify-content: center;
+  }
+  .btn-sm{
+    width: 100%;
+  }
+  .section, .card {
+      min-height: 64vh;
+  }
+  /* adding right border to vertical tab cards on small screens only*/
+  .nav-col, .nav-headernav-col{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-right: 0px;
+  }
 }

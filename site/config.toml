@@ -13,7 +13,7 @@ publishDir = "../docs"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Firm"
+    name = "Our Firm"
     url = "/firm"
     weight = 1
 [[menu.main]]
@@ -23,7 +23,7 @@ publishDir = "../docs"
 [[menu.main]]
     name = "Our Expertise"
     url = "/expertise"
-    weight = 3  
+    weight = 3
 [[menu.main]]
     name = "Contact"
     url = "/contact"

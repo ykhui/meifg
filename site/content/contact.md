@@ -77,10 +77,9 @@ layout: "contact"
                   <div class="info info-horizontal">
                     <div class="description">
                       <h5 class="info-title">Telephone</h4>
-                      <p> +974 5028 5492<br></p>
+                      <a href="tel:+97450285492">+974 5028 5492</a>
                       <h5 class="info-title">Email</h4>
-                      <p> info@mei-fg.com<br>
-                      </p>          
+                      <a href="mailto:info@mei-fg.com">info@mei-fg.com</a>          
                     </div>
                   </div>
                 </div>
