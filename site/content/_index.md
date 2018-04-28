@@ -5,7 +5,7 @@ background: "../img/home/bg.jpg"
 tint: "blue"
 ---
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item one active">
       <div class="onebg"></div>
