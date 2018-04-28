@@ -172,7 +172,7 @@ font style here
     margin-left: auto!important;
   }
   .section {
-      min-height: 87vh;
+      min-height: 80vh;
   }
   .card, .nav-col {
       min-height: 78.5vh;
@@ -201,7 +201,7 @@ font style here
     margin-left: auto!important;
   }
   .section {
-      min-height: 80%;
+      min-height: 81vh;
   }
   .card, .nav-col {
       min-height: 71.5vh;
