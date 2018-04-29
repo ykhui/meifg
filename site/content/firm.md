@@ -2,7 +2,7 @@
 title: "Our Firm"
 class: "firm-page"
 section: "section section-tabs"
-background: "../img/contact/bg.jpg"
+background: "../img/home/slide1d.jpg"
 tint: "blue"
 type: "template"
 layout: "pillstab"

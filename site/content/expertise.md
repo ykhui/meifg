@@ -2,7 +2,7 @@
 title: "Our Expertise"
 class: "expertise-page"
 section: "section section-tabs"
-background: "../img/contact/bg.jpg"
+background: "../img/home/slide3b.jpg"
 tint: "blue"
 type: "template"
 layout: "pillstab"

@@ -2,7 +2,7 @@
 title: "Our Team"
 class: "team-page"
 section: "section section-tabs"
-background: "../img/contact/bg.jpg"
+background: "../img/home/slide2.jpg"
 tint: "blue"
 type: "template"
 layout: "pillstab"

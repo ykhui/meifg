@@ -10,7 +10,6 @@
         <div class="page-header {{ .Params.headerstyle | default "page-header-small"}}" filter-color="{{ .Param "tint" | default "orange" }}">
             <div class="page-header-image" data-parallax="false" style="background-image: url('{{ (.Param "background")  | default "img/header.jpg" | relURL }}');">
             </div>
-
         </div>
         <div class="{{ .Params.section | default "section"}}">
             {{ partial "pillcol3" . }}

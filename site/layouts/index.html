@@ -7,12 +7,15 @@
 
   {{ partial "nav" . }}
     <div class="wrapper">
-      <div class="page-header" filter-color="{{.Params.tint}}">
-        <div class="page-header-image" style="background-image:url('{{ .Params.background }}');z-index:-200;">
+      <div class="page-header page-header-home" filter-color="{{.Params.tint}}">
+        <div class="page-header-image" style="background-image:url('{{ .Params.background }}');">
         </div>
         {{ .Content }}
-        {{ partial "footer" . }}
       </div>
+
+    </div>
+    <div class="section homesection">
+      {{ partial "footer" . }}
     </div>
 </body>
 
