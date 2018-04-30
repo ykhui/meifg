@@ -13,7 +13,7 @@ tint: "blue"
       	<div class="content-left">
       		<h1 class="home-header1">MEI Financial Group</h1>
       		<p class="home-p1">A One-stop Solution for all your financial needs.</p>
-      		<a href="/" class="btn btn-info">Learn More</a>
+      		<a href="/firm" class="btn btn-info">Learn More</a>
       	</div>
       </div>
     </div>
@@ -48,10 +48,10 @@ tint: "blue"
       </div>      		
     </div>
     <ol class="carousel-indicators carousel-indicators-numbers">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="">2</li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="">3</li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="">4</li>    
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>    
     </ol>             
   </div>
 </div>

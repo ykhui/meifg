@@ -45,7 +45,7 @@ publishDir = "../docs"
     background = "/img/bg11.jpg"
     tint = "orange"
     custom_css = ["css/highlight.min.css", "css/base.css", "css/homepage.css" ]
-    custom_js = []
+    custom_js = ["showtab.js"]
     date_format = "Mon, Jan 2, 2006"
     description = "MEI Financial Group"
 
