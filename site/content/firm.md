@@ -12,7 +12,7 @@ pillcardheader: |
             content incoming
           </h6>
 pillcardsidetab: |
-          <a class="nav-link nav-link-card active" id="v-pills-firm-tab" data-toggle="pill" href="#v-pills-firm" role="tab" aria-controls="v-pills-firm" aria-selected="true">Firm</a>
+          <a class="nav-link nav-link-card active" id="v-pills-firm-tab" data-toggle="pill" href="#v-pills-firm" role="tab" aria-controls="v-pills-firm" aria-selected="true">Our Firm</a>
           <a class="nav-link nav-link-card" id="v-pills-success-tab" data-toggle="pill" href="#v-pills-success" role="tab" aria-controls="v-pills-success" aria-selected="false">Our Successes</a>
 pillcardcontent: |
           <div class="tab-pane fade show active" id="v-pills-firm" role="tabpanel" aria-labelledby="v-pills-firm-tab">       
