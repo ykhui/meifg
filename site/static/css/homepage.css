@@ -42,6 +42,7 @@
     -ms-transition: opacity 1s;
     -o-transition: opacity 1s;
     transition: opacity 1s;
+    flex-basis: 100%;
 
 }
 .carousel .onebg {
