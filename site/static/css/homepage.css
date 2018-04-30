@@ -126,10 +126,7 @@ Homepage carousel content
 /*
 Homepage carousel header font
 */
-.home-header1 {
-  font-size: 4.5vw;
-  font-weight: 1000;
-}
+
 @media screen and (max-width: 576px) {
     .home-header1 {
         font-size: 13vw;
@@ -150,7 +147,7 @@ Homepage carousel header font
 
 @media screen and (min-width: 1200px) {
   .home-header1 {
-      font-size: 5vw;
+      font-size: 4vw;
   }
   .home-p1 {
       font-size: 2vw;
