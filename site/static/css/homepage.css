@@ -79,7 +79,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.1),
 .carousel .fourbg {
 background: linear-gradient(rgba(0, 0, 0, 0.1),
                             rgba(0, 0, 0, 0.1)),
-                            url(../img/home/slide4g.jpg);
+                            url(../img/home/slide4i.jpg);
     background-size: cover;
     -moz-background-size: cover;
     position: absolute;
